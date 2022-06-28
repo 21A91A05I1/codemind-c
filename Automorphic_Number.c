@@ -12,14 +12,14 @@ int digit_count(int n)
 }
 int reverse(int n)
 {
-    int d,rn=0;
+    int d,m=0;
     while(n!=0)
     {
         d=n%10;
         n=n/10;
-        rn=rn*10+d;
+        m=m*10+d;
     }
-    return rn;
+    return m;
 }
 int main()
 {
