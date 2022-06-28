@@ -13,7 +13,7 @@ int even_sum(int *arr,int n)
 }
 int main()
 {
-    int i,n,arr[100],k;
+    int n,i,arr[100],k;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
