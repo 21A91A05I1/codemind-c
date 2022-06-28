@@ -21,5 +21,4 @@ int main()
     }
     k=odd_sum(arr,n);
     printf("%d",k);
-    
 }
