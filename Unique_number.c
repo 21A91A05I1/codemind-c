@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(){
     int n, i, digit;
     static int arr[10];
