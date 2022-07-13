@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int a;
+    int a,c,count=0;
     scanf("%d",&a);
     int arr[a],i,j;
     for(i=0;i<a;i++)
@@ -9,13 +9,12 @@ int main()
         scanf("%d",&arr[i]);
     }
     double avg,sum=0;
-    int c=0,count=0;
     for(i=0;i<a;i++)
     {
         c=1;
         for(j=0;j<a;j++)
         {
-            if(i!=j && arr[i]!=0)
+            if(i!=j&&arr[i]!=0)
             {
                 if(arr[i]==arr[j])
                 {
@@ -37,7 +36,7 @@ int main()
     else
     {
         avg=sum/(count*1.0);
-        printf("%.2f",avg);
+        printf("%.2lf",avg);
     }
     return 0;
 }
