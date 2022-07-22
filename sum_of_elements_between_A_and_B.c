@@ -10,7 +10,7 @@ int main()
     scanf("%d%d",&k,&m);
     for(i=0;i<n;i++)
     {
-        if(arr[i]>=k && arr[i]<=m)
+        if(arr[i]>=k&&arr[i]<=m)
         {
             sum=sum+arr[i];
         }
