@@ -2,7 +2,7 @@
 int main()
 {
     int n,i,a,b;
-    int s=0,p=0;
+    int s=0,r=0;
     scanf("%d",&n);
     int ar[n],c[n],d=0;
     for(i=0;i<n;i++)
@@ -19,7 +19,7 @@ int main()
         }
     }
     int max=c[0];
-    for (i=0;i<d;i++)
+    for(i=0;i<d;i++)
     {
         if(c[i]>max)
         {
