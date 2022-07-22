@@ -2,7 +2,7 @@
 int main()
 {
     int n,i,a,b;
-    int s=0,p=0;
+    int s=0,r=0;
     scanf("%d",&n);
     int ar[n],c[n],d=0;
     for(i=0;i<n;i++)
@@ -12,7 +12,7 @@ int main()
     scanf("%d%d",&a,&b);
     for(i=0;i<n;i++)
     {
-        if (ar[i]>=a && ar[i]<=b)
+        if(ar[i]>=a && ar[i]<=b)
         {
             c[d]=ar[i];
             d++;
