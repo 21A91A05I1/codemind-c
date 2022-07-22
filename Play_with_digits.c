@@ -13,7 +13,7 @@ int digit_count(int num)
 }
 int main()
 {
-    int n,i,arr[100],s,sum=0;
+    int n,i,sum=0,arr[100],s;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
