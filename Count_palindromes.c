@@ -1,9 +1,10 @@
 #include<stdio.h>
-int palindrome(int num)
+int palin(int num)
 {
     int m,r=0,d;
     m=num;
-    while(num!=0){
+    while(num!=0)
+    {
         d=num%10;
         num=num/10;
         r=r*10+d;
@@ -27,7 +28,7 @@ int main()
     }
     for(i=0;i<n;i++)
     {
-        if(palindrome(arr[i]))
+        if(palin(arr[i]))
         {
             c++;
         }
