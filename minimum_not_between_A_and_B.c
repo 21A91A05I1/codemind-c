@@ -28,7 +28,7 @@ int main()
     {
         if(ze[i]<min)
         {
-            min=ze[i];
+          min=ze[i];
         }
     }
     if(e==0)
