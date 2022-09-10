@@ -1,8 +1,13 @@
 #include<stdio.h>
-int odd_count(int *arr,int n)
+int main()
 {
-    int i,k,c=0;
-    for(i=1;i<n-1;i++)
+    int arr[100],n,i,c=0;
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    for(i=0;i<n-1;i++)
     {
         if(arr[i-1]%2!=0 && arr[i+1]%2!=0)
         {
@@ -12,16 +17,6 @@ int odd_count(int *arr,int n)
             }
         }
     }
-    return c;
-}
-int main()
-{
-    int n,i,arr[100],k;
-    scanf("%d",&n);
-    for(i=0;i<n;i++)
-    {
-        scanf("%d",&arr[i]);
-    }
-    k=odd_count(arr,n);
-    printf("%d ",k);
+    printf("%d",c);
+    return 0;
 }
