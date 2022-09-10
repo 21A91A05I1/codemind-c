@@ -1,8 +1,9 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 {
-    int n,i,arr[100];
-    float avg,sum=0;
+    int arr[100],n,i;
+    float sum=0;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
@@ -12,6 +13,6 @@ int main()
     {
         sum=sum+arr[i];
     }
-    avg=sum/n;
-    printf("%.2f",avg);
+   sum=sum/n;
+   printf("%.2f",sum);
 }
